@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
 
         // Instanziierung + Wertzuweisung
-        Cat cat = new Cat("Grizabella", "white", 29, true);
+        Cat cat = new Cat("Grizabella", "white", 29);
 
         // Werte über Getter
         output(cat.getStringAttributes("#name"));
